@@ -1,0 +1,36 @@
+{
+  "name": "nodecg-tips-recent",
+  "version": "0.0.0",
+  "description": "NodeCG widget that shows the most recent tipper",
+  "homepage": "http://allarsblog.com",
+  "author": {
+    "name": "Michael Allar",
+    "email": "allar@michaelallar.com",
+    "url": "http://allarsblog.com"
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "nodecg",
+    "streamtip",
+    "tip",
+    "recent",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "~0.8.0",
+    "graphics": [
+      {
+        "file": "index.html",
+        "width": 600,
+        "height": 81
+      }
+    ]
+  },
+  "repository": "https://github.com/nodecg/nodecg.git",
+  "license": "MIT"
+}
